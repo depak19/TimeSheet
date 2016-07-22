@@ -1,0 +1,31 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="NewDataSet">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="Table" type="Table" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="Table">
+      <xsd:sequence>
+        <xsd:element name="Country" type="xsd:string"/>
+        <xsd:element name="City" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="CurrentWeather">
+    	<xsd:complexType>
+	        <xsd:sequence>
+	          <xsd:element name="Location" nillable="true" type="xsd:string"/>
+	          <xsd:element name="Time" nillable="true" type="xsd:string"/>
+	          <xsd:element name="Wind" nillable="true" type="xsd:string"/>
+	          <xsd:element name="Visibility" nillable="true" type="xsd:string"/>
+	          <xsd:element name="SkyConditions" nillable="true" type="xsd:string"/>
+	          <xsd:element name="Temperature" nillable="true" type="xsd:string"/>
+	          <xsd:element name="DewPoint" nillable="true" type="xsd:string"/>
+	          <xsd:element name="RelativeHumidity" nillable="true" type="xsd:string"/>
+	          <xsd:element name="Pressure" nillable="true" type="xsd:string"/>
+	          <xsd:element name="Status" nillable="true" type="xsd:string"/>
+	        </xsd:sequence>
+      	</xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,228 @@
+a {
+	font-size: 12px;
+}
+a, span, table, td, p, div, select, textarea, input, ol, ul, li, strong, b, i, em {
+    font-size: 1em;
+}
+
+div.wrapperMain {
+	width: 100%;
+}
+
+.wrapperMain {
+    width: 1004px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+center {
+	display: block;
+	text-align: -webkit-center;
+}
+
+topBar #HeaderNotLoggedIn,.topBar #HeaderNotLoggedIn a,.topBar #HeaderLoggedIn a,.topBar #HeaderLoggedIn span
+	{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size: 1.17em;
+	color: #fff;
+}
+
+#usernamePlaceholder {
+	margin-right: 15px;
+	font: inherit;
+}
+
+.clearfix1 {
+	display: block;
+}
+
+div.wrapperMain .topLinks a {
+	text-decoration: none;
+	color: black;
+	font-size: 0.9em;
+}
+
+div.wrapperMain .topLinks a:hover {
+	text-decoration: none;
+	color: #0175AC;
+	font-size: 0.9em;
+}
+
+div.wrapperMain .hdrSearch {
+	width: 560px;
+}
+
+div.wrapperMain .hdrSearch input.hdrSrchWebGoogle {
+	font-size: 1.04em;
+}
+
+div.wrapperMain .topBar {
+	width: 100%;
+	position: relative;
+	background: url(../images/header_midd.jpg) top left repeat-x;
+}
+
+.topBar {
+    position: relative;
+    width: 1004px;
+    height: 39px;
+    background: url(../images/topbar_bg.jpg) top no-repeat;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+div.wrapperMain .topBar .leftside {
+	width: 310px;
+	height: 39px;
+	position: absolute;
+	top: 0px;
+	left: 0x;
+	background: url(../images/header_leftside.jpg) top left no-repeat;
+	z-index: 1;
+}
+
+div.wrapperMain .topBar .rightside {
+	width: 1130px;
+	height: 39px;
+	position: absolute;
+	top: 0px;
+	/*right: -1px;*/
+	background: url(../images/header_rightside.jpg) top right no-repeat;
+	z-index: 1;
+}
+
+div.wrapperMain .topBar .signinLt {
+	z-index: 2;
+	background: url(../images/header_leftside2.jpg) top left no-repeat;
+}
+div.wrapperMain .topBar .signinLt1 {
+	z-index: 2;
+	/*background: url(../images/header_leftside2.jpg) top left no-repeat;*/
+}
+
+
+div.wrapperMain .topBar .signinRt {
+	z-index: 2;
+	/*background: url(../images/header_rightside.jpg) top left no-repeat;*/
+}
+
+.topBar .signinLt {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 39px;
+    margin: 0px;
+    padding: 8px 0px 0px 75px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",sans-serif;
+    color: #fff;
+}
+
+.signinLt {
+    float: left;
+}
+
+.topBar .signinLt1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 39px;
+    margin: 0px;
+    padding: 8px 0px 0px 30px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",sans-serif;
+    color: #fff;
+}
+
+.signinLt1 {
+    float: left;
+}
+
+div.wrapperMain .hdrWrapper {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+div.wrapperMain .hdrWrapper .hdrLeft {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div.wrapperMain .hdrWrapper .hdrRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding-right: 0;
+}
+
+div.wrapperMain .hdrWrapper .hdrRight .podWrapperTop {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	margin: 0;
+	/*margin-top: 40px; padding-left:20px; background: url(/images/header/2009/linkmailbkg.jpg) top left no-repeat;*/
+	height: 37px;
+	display: block;
+	padding: 0;
+	text-align: left;
+}
+
+div.wrapperMain .hdrWrapper .hdrRight .podWrapperTop a {
+	text-decoration: none;
+	font-weight: bold;
+	width: auto;
+	width: 229px;
+	height: 17px;
+	display: block;
+	padding: 0px;
+	margin-left: 0;
+}
+
+div.wrapperMain .hdrWrapper .hdrMdl {
+	margin: auto;
+	float: none;
+}
+
+div.wrapperInner {
+	margin: auto;
+	width: 100%;
+}
+
+div.wrapperInner>table {
+	width: 100%;
+	margin-left: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div.wrapperInner form {
+	background-color: #f5f8ff;
+	border: 1px solid #dde0e5;
+	border-top: none;
+}
+
+div.wrapperInner form div.Toolbar {
+	margin-top: 0;
+}
+
+.hdrWrapper {
+	background-color: transparent;
+	height: 88px;
+	padding-bottom: 35px
+}
+.topBar .signinRt {
+    position: relative;
+    top: 10px;
+    float: right;
+    margin-right: 30px;
+    /*font-family: "Lucida Grande","Lucida Sans Unicode",sans-serif;*/
+    color: #fff;
+}
+
+.signinRt {
+    overflow: hidden;
+     /*width: 300px;*/
+}

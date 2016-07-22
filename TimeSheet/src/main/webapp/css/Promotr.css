@@ -1,0 +1,1012 @@
+/*
+   Maintenance Log
+   ------------------------------------------------------------
+	'Modified By       : R.Ramakrishna
+	'Modified On       : 26-Sep-05
+	'------------------------------------------------------------
+	'Modified By       :Basavaraj
+	'Modified On       : 05-Feb-09
+	'Modified purpose  :9IT98/GSUP08/23
+	'------------------------------------------------------------
+*/
+.formbody
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: white
+}
+
+.PageHeading
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: #afcfec
+}
+
+.Available
+{
+    BORDER-RIGHT: black 1pt solid;
+    BORDER-TOP: black 1pt solid;
+    BORDER-LEFT: black 1pt solid;
+    BORDER-BOTTOM: black 1pt solid;
+    BACKGROUND-COLOR: floralwhite
+}
+
+.NotAvailable
+{
+    BORDER-RIGHT: black 1pt solid;
+    BORDER-TOP: black 1pt solid;
+    BORDER-LEFT: black 1pt solid;
+    BORDER-BOTTOM: black 1pt solid;
+    BACKGROUND-COLOR: lightskyblue
+}
+
+.Holiday
+{
+    BORDER-RIGHT: black 1pt solid;
+    BORDER-TOP: black 1pt solid;
+    BORDER-LEFT: black 1pt solid;
+    BORDER-BOTTOM: black 1pt solid;
+    BACKGROUND-COLOR: tan
+}
+
+.Regularfont
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New'
+}
+
+.tabs
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    TEXT-DECORATION: none
+}
+
+.tablehead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: #afcfec
+}
+
+.tablebody
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: #e8f0f3
+}
+.tablebody1         
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: #e8f0f3
+}
+.tablebody2
+{
+     FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    BACKGROUND-COLOR: #e8f0f3
+}
+.tablebodyclick
+{
+	font-size: 10pt;
+	font-family: Verdana, Arial, Courier, 'Courier New';
+	background-color: Red;
+}
+.cellclick
+{
+	background-color: #d3d3d3;
+  FONT-SIZE: 8pt;
+  FONT-FAMILY: Verdana, Arial, Courier
+}
+
+.boldFont
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New'
+}
+
+.smallfont
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier
+}
+
+.smallfontbold
+{
+		FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier
+}
+
+.smallfontRed
+{
+	FONT-SIZE: 8pt;
+	color: red;
+	FONT-FAMILY: Verdana, Arial, Courier
+}
+
+.redfontbold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: white
+}
+
+.tableregular
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: #e8f0f3
+}
+
+.tablesmallhead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: #afcfec
+}
+
+.tableheadsmall
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BACKGROUND-COLOR: #afcfec
+}
+
+.activetab
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #000099;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+
+.inactiveTab
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+
+.OLAPH
+{
+    BACKGROUND-COLOR: #87ceeb
+}
+
+.OLAPH1
+{
+    BACKGROUND-COLOR: paleturquoise
+}
+
+.OLAPH2
+{
+    BACKGROUND-COLOR: #ffd5ca
+}
+
+.value1
+{
+    BACKGROUND-COLOR: lemonchiffon
+}
+
+.blank
+{
+    BORDER-RIGHT: black;
+    BORDER-TOP: black;
+    BORDER-LEFT: black;
+    BORDER-BOTTOM: black;
+    BACKGROUND-COLOR: white
+}
+
+.Weekend
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-COLOR: gray
+}
+
+.pgheadback
+{
+    BACKGROUND-COLOR: #336699
+}
+
+
+.datatableborder
+{
+    BACKGROUND-COLOR: darkgray
+}
+
+.txt1
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txt
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New'
+}
+.txt8
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New'
+}
+.txtL
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txtbold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New'
+}
+.txtboldL
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.InputColHead3
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: Left
+}
+
+.InputColHead3R
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    FONT-SIZE: 11px;
+    COLOR: #ff0000;
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: Left
+}
+
+.InputColHead2
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: left
+    
+}
+
+.InputColHead2B
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: #afcfec;
+    TEXT-ALIGN: right
+    
+}
+
+.InputColHead2R
+{
+	border-right: medium none;
+	border-top: medium none;
+	font-size: 8pt;
+	border-left: medium none;
+	color: red;
+	border-bottom: medium none;
+	font-family: Verdana, Arial, Courier;
+	background-color: #e8f0f3;
+	text-align: left;
+}
+
+.InputColHead3L
+{
+	border-right: medium none;
+	border-top: medium none;
+	font-weight: bold;
+	font-size: 8pt;
+	border-left: medium none;
+	color: #000000;
+	border-bottom: medium none;
+	font-family: Verdana, Arial, Courier;
+	background-color: #d8e2e7;
+	text-align: right;
+}
+
+.InputCenterDisabled
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    BACKGROUND-COLOR: gainsboro;
+    TEXT-ALIGN: center
+}
+
+.InputCenter
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY:  Verdana, Arial, Courier;
+    TEXT-ALIGN: center;
+    
+}
+
+.InputCenter_Mismatch
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY:  Verdana, Arial, Courier;
+    TEXT-ALIGN: center;
+    BORDER-COLOR:red;
+    
+    
+}
+.InputCenterDisabled_Mismatch
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY: Verdana, Arial, Courier;    
+    BACKGROUND-COLOR: gainsboro;
+    TEXT-ALIGN: center;
+    BORDER-COLOR:red;
+    
+}
+
+.txtboldR
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.InputColHead4
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+     FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: center
+}
+
+.txtR
+{
+	font-size: 11px;
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.colhead1
+{
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-WEIGHT: bold;
+   FONT-SIZE: 11px;
+   COLOR: #000000;
+   BORDER-RIGHT: medium none;
+   BORDER-TOP: medium none;
+   BORDER-LEFT: medium none;
+   BORDER-BOTTOM: medium none;
+   BACKGROUND-COLOR: #e8f0f3
+}
+
+.colhead2
+{
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   FONT-SIZE: 11px;
+   COLOR: #000000;
+   BORDER-RIGHT: medium none;
+   BORDER-TOP: medium none;
+   BORDER-LEFT: medium none;
+   BORDER-BOTTOM: medium none;
+   BACKGROUND-COLOR: #a7c7fc
+}
+
+.DropDownListMedium
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 160px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BORDER-BOTTOM-STYLE: solid
+}
+
+.SmallMediumButton
+{
+    BORDER-RIGHT: #000000 1px outset;
+    BORDER-TOP: #cccccc 1px outset;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #cccccc 1px outset;
+    WIDTH: 60px;
+    COLOR: black;
+    BORDER-BOTTOM: black 1px outset;
+    FONT-FAMILY: arial, helvetica, sans-serif
+}
+
+.datatableback
+{
+		
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: #e8f0f3
+}
+.datatablebackL
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.pgheadborder
+{
+    BACKGROUND-COLOR: #003366
+}
+
+.pghead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #afcfec
+}
+
+.InputColHead1
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: center;
+   
+}
+
+.LargeButton
+{
+    BORDER-RIGHT: #000000 1px outset;
+    BORDER-TOP: #cccccc 1px outset;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #cccccc 1px outset;
+    WIDTH: 175px;
+    COLOR: black;
+    BORDER-BOTTOM: black 1px outset;
+    FONT-FAMILY: arial, helvetica, sans-serif
+}
+
+.txtboldwhite
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.Input
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY: Arial, Helvetica, 'MS Sans Serif'
+}
+
+
+.LabelBackground
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f5f5f5
+}
+
+.DropDownListLarge
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 230px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BORDER-BOTTOM-STYLE: solid
+}
+.DropDownListLarge2
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 330px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BORDER-BOTTOM-STYLE: solid
+}
+.DropDownListLarge1
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 230px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BORDER-BOTTOM-STYLE: solid
+}
+.InputLarge
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px outset;
+    WIDTH: 250px;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY: Arial, helvetica, 'MS Sans Serif'
+}
+
+.Radio
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.DropDownListSmall
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 75px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BORDER-BOTTOM-STYLE: solid
+}
+
+.DropDownListSmall1
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 75px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BORDER-BOTTOM-STYLE: solid
+}
+TEXTAREA
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.DropDownListExtraLarge
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 325px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BORDER-BOTTOM-STYLE: solid
+}
+
+.DropDownListExtraLarge1
+{
+    BORDER-RIGHT: 1px solid;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 325px;
+    BORDER-TOP-STYLE: solid;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New';
+    BORDER-BOTTOM-STYLE: solid
+}
+
+.InputMedium
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px outset;
+    WIDTH: 115px;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY: Arial, helvetica, 'MS Sans Serif'
+}
+
+.colhead
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #afcfec;
+}
+
+.MediumButton
+{
+    BORDER-RIGHT: #000000 1px outset;
+    BORDER-TOP: #cccccc 1px outset;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #cccccc 1px outset;
+    WIDTH: 120px;
+    COLOR: black;
+    BORDER-BOTTOM: black 1px outset;
+    FONT-FAMILY: arial, helvetica, sans-serif
+}
+
+.NewButton
+{
+    BORDER-RIGHT:  1px outset;
+    BORDER-TOP:  1px outset;
+    BORDER-LEFT:  1px outset;
+    BORDER-BOTTOM:  1px outset;
+    FONT-SIZE:  10pt;
+    WIDTH: 120px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Courier, 'Courier New'
+}
+
+.button
+{
+    BORDER-RIGHT: #000000 1px outset;
+    BORDER-TOP: #cccccc 1px outset;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #cccccc 1px outset;
+    WIDTH: 65px;
+    COLOR: black;
+    BORDER-BOTTOM: black 1px outset;
+    FONT-FAMILY: arial, helvetica, sans-serif
+}
+.buttonL
+{
+    BORDER-RIGHT: #000000 1px outset;
+    BORDER-TOP: #cccccc 1px outset;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #cccccc 1px outset;
+    WIDTH: 65px;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: black 1px outset;
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    BACKGROUND-COLOR: #336699
+}
+.notes
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.InputColHead2Right
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: right
+}
+
+A.ProjectLinks
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: underline
+}
+A.ProjectLinks:hover
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: none
+}
+A.ProjectLinksBold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: underline
+}
+A.ProjectLinksBold:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: none
+}
+A.ProjectLinksR
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: underline
+}
+A.ProjectLinksR:hover
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: none
+}
+
+A.ProjectLinksRed
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: underline
+}
+A.ProjectLinksRed:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    TEXT-DECORATION: none
+}
+
+
+
+.InputColHead5
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: Left
+}
+
+
+.InputColHead5R
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #ff0000;
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: Left
+}
+.loginlinks
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #336699;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.footer
+{
+    FONT-SIZE: 11px;
+    COLOR: #666666;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.InputCenter_C
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY:  Verdana, Arial, Courier;
+    TEXT-ALIGN: center;
+    
+}
+
+.BillableDay
+{
+	BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;    
+    BACKGROUND-COLOR: #e8f0f3;
+    TEXT-ALIGN: center;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial, Courier;
+    BACKGROUND-COLOR: LightGreen;    
+}
+
+.myModalPopupbackGrnd {
+	background-color: #dedede;
+	filter: alpha(opacity = 50);
+	opacity: 0.7;
+}
+
+.myModalPopup {
+	min-width: 200px;
+	min-height: 150px;
+	background: white;
+}
+
+.style23 {
+	width: 137px;
+}
+
+.style22 {
+	width: 170px;
+}
+
+.style8 {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Courier;
+	width: 15px;
+}
+
+.style10 {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Courier;
+	width: 290px;
+}
+
+.style9 {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Courier;
+	width: 112px;
+}
+
+.style12 {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Courier;
+	width: 96px;
+}
+
+.style18 {
+	width: 598px;
+}
+
+#iframe {
+	width: 100%;
+	height: 130px;
+	overflow: auto;
+	border: 1px;
+	border-color: Black;
+}
+
+.style15 {
+	width: 590px;
+}
+
+.style11 {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Courier;
+	width: 59px;
+}
+
+.style111 {
+	font-size: 8pt;
+	font-family: Verdana, Arial, Courier;
+	width: 59px;
+}
+
+.style16 {
+	width: 235px;
+}
+
+#Table5 {
+	width: 52px;
+}
+
+#Iframe1 {
+	width: 90px;
+}
+
+#Iframe2 {
+	width: 99px;
+	margin-left: 0px;
+	height: 10px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+#I1 {
+	height: 88px;
+	width: 112px;
+	margin-left: 0px;
+}
+
+.stdrop {
+	position: absolute;
+	left: 280px;
+	top: 100px;
+	height: 26px;
+}

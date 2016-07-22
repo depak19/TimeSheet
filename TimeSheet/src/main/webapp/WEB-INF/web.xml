@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<display-name>TimeSheet Application</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<!-- Spring Security -->
+	<filter>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- Spring MVC -->
+    <servlet>
+		<servlet-name>timesheet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>
+	            /WEB-INF/timesheet-servlet.xml,
+	            /WEB-INF/application-security.xml
+        	</param-value>
+        </init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>timesheet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<!-- Defaults -->
+	<servlet-mapping>
+    	<servlet-name>default</servlet-name>
+	    <url-pattern>*.xml</url-pattern>
+	    <url-pattern>*.html</url-pattern>
+	    <url-pattern>*.png</url-pattern>
+	    <url-pattern>*.jpg</url-pattern>
+	    <url-pattern>*.gif</url-pattern>
+	    <url-pattern>*.js</url-pattern>
+	    <url-pattern>*.css</url-pattern>
+	    <url-pattern>*.map</url-pattern>
+	    <url-pattern>*.woff</url-pattern>
+	    <url-pattern>*.woff2</url-pattern>
+	    <url-pattern>*.ttf</url-pattern>
+	    <url-pattern>*.otf</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			 /WEB-INF/timesheet-servlet.xml,
+            /WEB-INF/application-security.xml
+		</param-value>
+	</context-param>
+	
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<error-page id="error404">
+        <error-code>404</error-code>
+        <location>/html-jsp/errorPages/pageNotFound.jsp</location>
+    </error-page>
+
+    <error-page id="error403">
+        <error-code>403</error-code>
+        <location>/html-jsp/errorPages/accessDenied.jsp</location>
+    </error-page>
+    
+</web-app>
